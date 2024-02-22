@@ -1,4 +1,4 @@
-module github.com/east-true/jwt-go
+module github.com/east-true/auth-go
 
 go 1.21.5
 

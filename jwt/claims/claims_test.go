@@ -3,7 +3,7 @@ package claims_test
 import (
 	"testing"
 
-	. "github.com/east-true/jwt-go/claims"
+	. "github.com/east-true/auth-go/jwt/claims"
 )
 
 func TestNewToken(t *testing.T) {
