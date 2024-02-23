@@ -3,17 +3,12 @@ package jwt
 import (
 	"errors"
 	"fmt"
-	"net/http"
-	"strings"
 	"time"
 
 	"github.com/east-true/auth-go/jwt/claims"
-	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 )
-
-
 
 type AuthToken struct {
 	Access  *claims.Claims `json:"access_token"`
